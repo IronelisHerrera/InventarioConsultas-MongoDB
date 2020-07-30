@@ -349,6 +349,9 @@ public class Main {
                     fec2 = fecha2;
                 }
             }
+            else{
+                System.out.println("Fecha no especificada");
+            }
 
             response.redirect("/Generar");
             return "";

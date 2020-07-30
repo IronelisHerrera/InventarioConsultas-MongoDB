@@ -63,7 +63,7 @@ public class Articulos {
             e.printStackTrace();
         }
     }
-    DB database = mongoClient.getDB("sInventarioMongo");
+    DB database = mongoClient.getDB("InventarioMongo");
     DBCollection articulos = database.getCollection("Articulos");
 
     DBObject art1 = new BasicDBObject("codigoArticulo", "TEC-001")
