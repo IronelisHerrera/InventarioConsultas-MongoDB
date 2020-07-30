@@ -61,10 +61,10 @@
             </div>
             <ul class="nav navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="/Agregar">Agregar orden</a>
+                    <a class="nav-link" href="/Agregar">Registrar movimiento</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/Generar">Registrar movimiento</a>
+                    <a class="nav-link" href="/Generar">Agregar orden</a>
                 </li>
             </ul>
         </div>
