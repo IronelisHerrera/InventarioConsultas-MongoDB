@@ -40,7 +40,7 @@ public class OrdenCompra {
             e.printStackTrace();
         }
     }
-    DB database = mongoClient.getDB("sInventarioMongo");
+    DB database = mongoClient.getDB("InventarioMongo");
     DBCollection ordenesCompras = database.getCollection("OrdenCompra");
 
     DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd");

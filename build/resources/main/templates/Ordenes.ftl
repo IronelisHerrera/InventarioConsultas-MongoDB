@@ -56,15 +56,15 @@
         <label>No. Orden </label>
         <input type="text" value="1" class="form-control w-25" style="display: inline" readonly>
 
-        <label style="margin-left: 146px;">Fecha orden </label>
+        <label style="margin-left: 146px;">Fecha orden: </label>
         <input type="text" class="form-control w-25" value="${fecha1}" style="display: inline" readonly>
         </br>
         </br>
 
-        <label>Suplidor </label>
+        <label>Suplidor: </label>
         <input type="text" class="form-control w-25" value="${suplidor1}" style="display: inline" readonly>
 
-        <label style="margin-left: 165px;">Monto total </label>
+        <label style="margin-left: 165px;">Monto total: </label>
         <input type="text" class="form-control w-25"  value="${monto1}" style="display: inline" readonly>
         </br>
         </br>
@@ -107,10 +107,10 @@
 
     <#-- Orden #2-->
     <div class="form-group">
-        <label>Número orden </label>
+        <label>Número orden:</label>
         <input type="text" value="2" class="form-control w-25" style="display: inline" readonly>
 
-        <label style="margin-left: 146px;">Fecha orden </label>
+        <label style="margin-left: 146px;">Fecha orden:</label>
         <input type="text" value="${fecha2}" class="form-control w-25" style="display: inline" readonly>
         </br>
         </br>
@@ -118,7 +118,7 @@
         <label>Suplidor </label>
         <input type="text" class="form-control w-25" value="${suplidor2}" style="display: inline" readonly>
 
-        <label style="margin-left: 165px;">Monto total </label>
+        <label style="margin-left: 165px;">Monto total: </label>
         <input type="text" class="form-control w-25"  value="${monto2}" style="display: inline" readonly>
         </br>
         </br>

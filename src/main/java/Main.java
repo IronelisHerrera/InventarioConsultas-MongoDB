@@ -33,7 +33,7 @@ public class Main {
 
     public static void main(String[] args) {
         enableDebugScreen();
-
+        /*
         Articulos articulos = new Articulos();
         articulos.insertarArticulo(new BasicDBObject("codigoArticulo", "TEC-001")
                         .append("descripcion", "TECLADO")
@@ -96,7 +96,7 @@ public class Main {
                 .append("tiempoEntrega", 3)
                 .append("precioCompra", 3500));
 
-
+        */
         getRutas();
     }
 

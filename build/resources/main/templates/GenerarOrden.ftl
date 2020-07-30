@@ -53,12 +53,12 @@
     <div style="margin-top: 75px">
         <form method="post" action="/AgregarDetalle">
                 <div class="form-group">
-                    <label for="fechaOrden" >Fecha requerida </label>
+                    <label for="fechaOrden" >Fecha requerida: </label>
                     <input id="date" class="mb-2" type="date" id="fechaOrden" name="fechaOrden">
                 </div>
 
                 <div class="form-group" style="display: inline">
-                    <label for="componentePC">Componente </label>
+                    <label for="componentePC">Componente: </label>
                     <select class="mr-4" name="componentePC">
                     <#list listaNombres as nombre>
                         <option value="${nombre}">${nombre}</option>
@@ -67,7 +67,7 @@
                 </div>
                 &nbsp;&nbsp;
                 <div class="form-group mb-2" style="display: inline">
-                    <label for="cantidadcompPC">Cantidad componentes </label>
+                    <label for="cantidadcompPC">Cantidad componentes: </label>
                     <input type="number" id="cantidadcompPC" name="cantidadcompPC">
                 </div>
 
@@ -105,8 +105,6 @@
     <form method="get" class="mt-3" action="/Ordenes">
         <input type="submit" class="mt-4 btn btn-primary" style="margin-left: 300px" value="Generar orden">
     </form>
-
-    <!-- /.row -->
 
 </div>
 <!-- /.container -->

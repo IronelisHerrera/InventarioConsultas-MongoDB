@@ -81,7 +81,7 @@ public class MovimientoInventario {
             e.printStackTrace();
         }
     }
-    DB database = mongoClient.getDB("sInventarioMongo");
+    DB database = mongoClient.getDB("InventarioMongo");
     DBCollection movimientoInventario = database.getCollection("MovimientoInventario");
 
     DBObject movInv1 = new BasicDBObject("codigoMovimiento", 1)

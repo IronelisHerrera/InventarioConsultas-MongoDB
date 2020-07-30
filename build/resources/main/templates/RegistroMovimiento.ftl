@@ -55,12 +55,12 @@
         <form method="post" action="/AgregarMovimiento">
 
             <div class="form-group">
-                <label for="codigoMovimiento">Codigo movimiento</label>
+                <label for="codigoMovimiento">Codigo movimiento:</label>
                 <input type="text" class="form-control" id="codigoMovimiento" name="codigoMovimiento" value='${movimiento}' readonly>
             </div>
 
             <div class="form-group">
-                <label for="codigoAlmacen">Codigo almacen</label>
+                <label for="codigoAlmacen">Codigo almacen:</label>
                 <select name="codigoAlmacen">
                     <option value="1" selected>1</option>
                     <option value="2">2</option>
@@ -69,7 +69,7 @@
             </div>
 
             <div class="form-group">
-                <label for="tipoMovimiento">Tipo movimiento</label>
+                <label for="tipoMovimiento">Tipo movimiento:</label>
                 <select name="tipoMovimiento">
                     <option value="ENTRADA">ENTRADA</option>
                     <option value="SALIDA" selected>SALIDA</option>
@@ -77,7 +77,7 @@
             </div>
 
             <div class="form-group">
-                <label for="codigoArticulo">Codigo articulo</label>
+                <label for="codigoArticulo">Codigo articulo:</label>
                 <select name="codigoArticulo">
                     <#list codigos as codigo>
                         <option value="${codigo}">${codigo}</option>
@@ -86,12 +86,12 @@
             </div>
 
             <div class="form-group">
-                <label for="cantidad" class="text-dark">Cantidad</label>
+                <label for="cantidad" class="text-dark">Cantidad:</label>
                 <input type="number" class="form-control"  id="cantidad" name="cantidad" placeholder="Cantidad" required>
             </div>
 
             <div class="form-group">
-                <label for="unidad">Unidad</label>
+                <label for="unidad">Unidad:</label>
                 <input type="text" class="form-control"  id="unidad" name="unidad" placeholder="Eje: U" required>
             </div>
 
