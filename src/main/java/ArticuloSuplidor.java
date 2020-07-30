@@ -14,7 +14,7 @@ public class ArticuloSuplidor {
             e.printStackTrace();
         }
     }
-    DB database = mongoClient.getDB("sInventarioMongo");
+    DB database = mongoClient.getDB("InventarioMongo");
     DBCollection articuloSuplidor = database.getCollection("ArticuloSuplidor");
 
     DBObject artSup1 = new BasicDBObject("codigoArticulo", "TEC-001")
